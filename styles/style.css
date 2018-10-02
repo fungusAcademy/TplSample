@@ -1,0 +1,143 @@
+body
+{
+    background-color: olive;
+    color: white;
+    font-family: 'Yeon Sung', cursive;
+	margin-top: 50px;
+	margin-left: 1px;
+}
+
+p,
+input
+{
+	padding: 3px;
+	margin: 3px;
+}
+canvas
+{
+	border: 1px solid gray;
+}
+		
+/*menu*/
+  /*top menu*/
+
+.navigation-menu * 
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation-menu ul,
+.navigation-menu ol 
+{
+    list-style: none;
+    background-color: green;
+}
+
+.navigation-menu > ul 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-menu > ul li a 
+{
+    display: block;
+    padding: 15px 30px 15px 40px;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    transition: all 0.7s ease;
+}
+
+.navigation-menu > ul li
+{
+    position: relative;
+    border-right: 1px solid black;
+}
+
+.navigation-menu >ul li:first-child 
+{
+    border-left: 1px solid black;
+}
+
+.navigation-menu > ul li:last-child 
+{
+    border-right: 1px solid black;
+}
+
+.navigation-menu li a:hover
+{
+    background: gray;
+    transition: all 0.7s ease;
+}
+
+.header-menu
+{
+	position: fixed;
+	top: 0; 
+    width: 100%;
+}
+
+.header-menu .navigation-menu > ul li
+{
+    position: relative;
+    
+}
+/* end menu */
+
+/*footer menu*/
+.footer-menu
+{
+	position: fixed;
+	bottom: 0; 
+    width: 100%;
+}
+
+.footer-menu .navigation-menu > ul li
+{
+    position: relative;    
+}
+
+#intro,
+#description
+{
+	text-align: center;
+}
+
+.gallery
+{
+	position: relative;
+	text-align: center;
+}
+
+.gallery img
+{
+	width: 500px;
+	height: 500px;
+	margin: 5px;
+	padding: 1px;
+	border: 1px solid green;
+	background-color: olive;
+}
+
+hr
+{
+	border-color: white;
+}
+
+.column
+{
+	margin-left: 10px;
+	width: 50%;
+}
+
+#user-photo
+{
+	width: 250px;
+	height: 250px;
+	border: 1px solid green;
+	padding: 1px;
+	background-color: olive;
+}
